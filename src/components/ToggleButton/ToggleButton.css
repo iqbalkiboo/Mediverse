@@ -1,0 +1,11 @@
+.toggle__bg:after {
+  content: '';
+  @apply absolute top-[1px] left-0.5 bg-grayDarkBg border border-gray-300 rounded-full h-4 w-4 transition shadow-sm;
+}
+input:checked + .toggle__bg:after {
+  transform: translateX(100%);
+  @apply border-white;
+}
+input:checked + .toggle__bg {
+  @apply bg-[#7859EE] border-[#7859EE];
+}

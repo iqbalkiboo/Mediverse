@@ -1,0 +1,108 @@
+.sidebar {
+    @apply flex;
+    @apply flex-1;
+}
+
+.sidebar .sidebar-container {
+    @apply bg-white;
+    @apply flex;
+    @apply flex-col;
+    @apply items-center;
+    @apply duration-700;
+    @apply border-r;
+    height: calc(100vh - 82px);
+}
+
+.sidebar .sidebar-container .arrow-left {
+    @apply rounded-full;
+    @apply absolute;
+    @apply cursor-pointer;
+    @apply -right-3;
+    @apply top-[15px];
+    @apply w-6;
+    @apply z-10;
+}
+
+.img-link {
+    @apply flex;
+    @apply items-center;
+    @apply self-center;
+}
+
+.sidebar .sidebar-container .border-bottom {
+    @apply border-b;
+    @apply w-full;
+    @apply flex;
+    @apply justify-center;
+    @apply relative;
+    @apply mt-4;
+    @apply border-[#E1E1E1];
+}
+
+.sidebar .sidebar-container .sidebar-menu-wrap {
+    @apply flex;
+    @apply flex-col;
+    @apply py-[55px];
+    @apply w-full;
+    @apply overflow-y-auto;
+}
+
+.sidebar-menu-wrap .sidebar-menu {
+    @apply pb-[55px];
+}
+
+.sidebar-menu-wrap .menu-item {
+    @apply transition;
+    @apply delay-100;
+    @apply items-center;
+    @apply duration-700;
+    @apply cursor-pointer;
+    @apply mt-1;
+    @apply h-12;
+}
+
+.sidebar-menu-wrap .menu-item.active {
+    @apply bg-[#F3EDFF];
+    @apply text-[#0D0D54];
+    @apply hover:text-[#0D0D54];
+    @apply font-bold;
+    @apply tracking-[0.15px];
+}
+.sidebar-menu-wrap .menu-item.item {
+    @apply py-3;
+    @apply pl-[51px];
+    @apply h-auto;
+}
+
+.sidebar-menu-wrap .menu-open {
+    @apply py-[16px];
+    @apply pl-[20px];
+    @apply pr-[10px];
+}
+
+.item-text {}
+
+.sidebar-menu-wrap .menu-close {
+    @apply py-3;
+    @apply px-[22px];
+}
+
+.sidebar-menu-wrap .chat-badge {
+    @apply absolute;
+    @apply w-[15px];
+    @apply h-[15px];
+    @apply bg-[#5600E8];
+    @apply rounded-[40px];
+    @apply right-[14px];
+    @apply -mt-[6px];
+}
+
+.sidebar-menu-wrap .chat-badge-small {
+    @apply absolute;
+    @apply w-[12px];
+    @apply h-[12px];
+    @apply bg-[#5600E8];
+    @apply rounded-[40px];
+    @apply right-[12px];
+    @apply -mt-[5px];
+}

@@ -1,0 +1,8 @@
+.container__home {
+  @apply w-full;
+  @apply flex;
+  @apply flex-col;
+  @apply h-screen;
+  @apply justify-center;
+  @apply items-center;
+}

@@ -1,0 +1,48 @@
+.table__main {
+  @apply w-full;
+  @apply border-2;
+  @apply border-collapse;
+  @apply shadow-md;
+}
+.table__main thead {
+  @apply bg-white;
+  @apply uppercase;
+}
+.table__main thead tr {
+  @apply font-extrabold;
+  @apply text-grayTertiary;
+  @apply p-6;
+}
+.table__main thead tr th {
+  @apply py-4;
+  @apply text-grayTertiary;
+  @apply text-left;
+}
+.table__main thead th {
+  @apply border-b-2;
+  @apply px-4;
+}
+.table__main tbody .tr__class {
+  @apply bg-white;
+}
+.table__main tbody .tr__class:nth-child(even) {
+  @apply bg-whiteNeutral;
+}
+.table__main tbody .tr__class td {
+  @apply max-w-5xl;
+  @apply py-3;
+  @apply px-4;
+  @apply text-sm;
+  @apply font-normal;
+}
+
+.column__state.status__0 {
+  @apply flex;
+  @apply items-center;
+  @apply text-danger;
+}
+.column__state.status__1 {
+  @apply flex;
+  @apply items-center;
+  @apply text-greenPrimary;
+}

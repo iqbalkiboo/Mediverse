@@ -1,0 +1,42 @@
+.table-container {
+    @apply container;
+    @apply flex;
+    @apply  w-full;
+}
+
+.table-body {
+    @apply border;
+    @apply rounded-2xl;
+    @apply overflow-hidden;
+    @apply border-[#1B1B2826];
+}
+
+.table-head {
+    @apply pl-2.5;
+    @apply py-4;
+    @apply text-left;
+    @apply text-sm;
+    @apply text-[#B5B5C3];
+    @apply capitalize;
+    @apply font-normal;
+    @apply bg-[#F6F6F6]
+}
+
+.table-payload {
+    @apply pl-2.5;
+    @apply py-4;
+    @apply text-left;
+    @apply text-sm;
+    @apply text-gray-500;
+}
+
+.button-detail {
+    @apply px-20;
+    @apply py-3;
+    @apply text-sm;
+    @apply text-[#5600E8];
+    @apply bg-transparent;
+    @apply rounded-full;
+    @apply border;
+    @apply border-[#5600E8];
+}

@@ -1,0 +1,70 @@
+.pagination__container {
+    @apply flex;
+    @apply items-center;
+    @apply space-x-2;
+}
+.pagination__navigation {
+    @apply flex;
+    @apply items-center;
+    @apply justify-center;
+    @apply h-8;
+    @apply w-8;
+    @apply border;
+    @apply rounded;
+    @apply cursor-pointer;
+}
+
+.pagination__item {
+    @apply flex;
+    @apply items-center;
+    @apply justify-center;
+    @apply h-8;
+    @apply w-8;
+    @apply text-xs;
+    @apply rounded;
+    @apply border;
+    @apply bg-white;
+    @apply text-[#212B36];
+    @apply border-[#DFE3E8];
+    @apply cursor-pointer;
+}
+
+.pagination__item:hover {
+    @apply bg-[#4200FF] !important;
+    @apply border-[#4200FF] !important;
+    @apply text-white !important;
+    @apply border-[#4200FF] !important;
+}
+
+.disabled {
+    @apply  border-[#E0E0E0] !important;
+    @apply bg-[#E0E0E0] !important;
+}
+
+.active {
+    @apply text-[#FFFF];
+    @apply border-[#4200FF] !important;
+    @apply bg-[#4200FF]
+}
+
+.nav_active {
+  @apply border-[#4200FF];
+  @apply text-[#C4CDD5];
+  @apply bg-white;
+}
+
+.nav_disable {
+  @apply border-[#E0E0E0];
+  @apply text-[#C4CDD5];
+  @apply bg-[#E0E0E0];
+}
+
+.nav_disable:hover {
+  @apply border-[#E0E0E0];
+  @apply text-[#C4CDD5];
+  @apply bg-[#E0E0E0];
+}
+
+.options {
+  @apply absolute left-0 top-8 grid w-12 overflow-hidden rounded-md bg-white;
+}

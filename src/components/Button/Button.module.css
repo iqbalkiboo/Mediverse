@@ -1,0 +1,100 @@
+.container__button[type='button'] {
+  @apply flex;
+  @apply justify-center;
+  @apply rounded-full;
+  @apply tracking-[0.078em];
+  @apply items-center;
+  @apply gap-x-4;
+  @apply transition;
+  @apply duration-700;
+  @apply w-full;
+}
+
+.size__lg[type='button'] {
+  @apply h-12;
+  @apply px-4;
+  @apply py-3;
+  @apply gap-1;
+}
+
+.size__md[type='button'], .size__normal[type='button']{
+  @apply h-10;
+  @apply px-4;
+  @apply py-4;
+}
+
+.size__xl[type='button'] {
+  @apply py-3;
+  @apply px-12;
+}
+
+.size__sm[type='button']{
+  @apply h-6;
+  @apply px-2;
+  @apply py-4;
+}
+
+.button__primary[type='button'] {
+  @apply text-white;
+  @apply bg-primary;
+  @apply hover:bg-electricPurpleHover;
+  @apply focus:border-electricPurpleHoverBorder;
+  @apply focus:bg-electricPurplePressed;
+  @apply border-primary;
+  @apply border-1;
+  @apply focus:border-2;
+}
+
+
+.button__disabled[type='button'] {
+  @apply text-grayText;
+  @apply bg-grayDarkBg;
+}
+
+.button__secondary[type='button'] {
+  @apply text-electricPurpleHover;
+  @apply bg-electricPurpleSecondary;
+  @apply focus:text-electricPurplePressed;
+  @apply focus:border-electricPurpleHoverBorder;
+  @apply focus:border-2;
+}
+
+.button__outline[type='button'] {
+  @apply text-electricPurpleHover;
+  @apply focus:text-electricPurple;
+  @apply border-electricPurpleHoverBorder;
+  @apply hover:border-electricPurplePressed;
+  @apply focus:border-electricPurpleHoverBorder;
+  @apply border-2;
+  @apply focus:border-2;
+}
+
+.button__reject[type='button'] {
+  @apply text-white;
+  @apply bg-reject;
+  @apply hover:bg-rejectSecondary;
+  @apply focus:border-electricPurpleHoverBorder;
+  @apply focus:bg-electricPurplePressed;
+  @apply focus:border-2;
+}
+
+.button__reject-secondary[type='button'] {
+  @apply text-reject;
+  @apply bg-[#FED9E7];
+  @apply hover:bg-[#ebc8d5];
+  @apply focus:text-white;
+  @apply focus:border-electricPurpleHoverBorder;
+  @apply focus:bg-electricPurplePressed;
+  @apply focus:border-2;
+}
+
+.button__reject-outline[type='button'] {
+  @apply text-reject;
+  @apply border-1;
+  @apply border-reject;
+  @apply hover:bg-[#ebc8d5];
+  @apply focus:text-white;
+  @apply focus:border-electricPurpleHoverBorder;
+  @apply focus:bg-electricPurplePressed;
+  @apply focus:border-2;
+}

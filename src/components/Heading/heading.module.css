@@ -1,0 +1,5 @@
+.heading {
+  @apply capitalize;
+  @apply text-primary;
+  @apply font-bold;
+}

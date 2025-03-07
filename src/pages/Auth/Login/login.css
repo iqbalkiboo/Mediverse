@@ -1,0 +1,51 @@
+.container__login {
+  @apply w-full;
+  @apply flex;
+  @apply flex-row;
+  @apply min-h-screen;
+  @apply overflow-hidden;
+}
+
+.container__header{
+  @apply w-full;
+  @apply border-b-2;
+  @apply py-7;
+  @apply pl-12;
+}
+
+.container__main{
+  @apply flex; 
+  @apply justify-center;
+  @apply items-center; 
+  @apply grow;
+}
+
+.button__login {
+  @apply bg-slate-300;
+  @apply rounded-full;
+  @apply py-3 px-5;
+  @apply mt-10
+}
+.text__login {
+  @apply bg-orange-500;
+  @apply font-bold;
+  @apply text-2xl;
+}
+.input{
+  @apply pl-2;
+  @apply grow;
+  @apply focus-visible:outline-0;
+}
+
+.right__wraper{
+  @apply w-3/5;
+  @apply bg-white;
+  @apply  h-screen;
+}
+
+.logo__text {
+  @apply text-white;
+  @apply text-4xl;
+  @apply font-light;
+  @apply text-center;
+}

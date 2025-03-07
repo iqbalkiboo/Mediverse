@@ -1,0 +1,170 @@
+.typography__variant-xh1 {
+  @apply text-6xl;
+  @apply font-jakarta-bold;
+  @apply font-extrabold;
+}
+
+.typography__variant-xh2 {
+  @apply text-5xl;
+  @apply font-jakarta-bold;
+  @apply font-extrabold;
+}
+
+.typography__variant-xh3 {
+  @apply text-4xl;
+  @apply font-jakarta-bold;
+  @apply font-extrabold;
+}
+
+.typography__variant-h1 {
+  @apply text-2xl;
+  @apply font-jakarta-bold;
+  @apply font-bold;
+}
+
+.typography__variant-h2 {
+  @apply text-xl;
+  @apply font-jakarta-bold;
+  @apply font-bold;
+  @apply tracking-[0.15px];
+}
+
+.typography__variant-h3 {
+  @apply text-lg;
+  @apply font-jakarta-bold;
+  @apply font-bold;
+  @apply tracking-[0.15px];
+}
+
+.typography__variant-h4 {
+  @apply text-sm;
+  @apply font-jakarta-bold;
+  @apply font-bold;
+  @apply tracking-[0.1px];
+}
+
+.typography__variant-h5 {
+  @apply text-xs;
+  @apply font-jakarta-bold;
+  @apply font-bold;
+  @apply tracking-[0.1px];
+}
+
+.typography__variant-subtitle1 {
+  @apply font-jakarta-medium;
+  @apply text-2xl;
+  @apply font-semibold;
+}
+
+.typography__variant-subtitle2 {
+  @apply font-jakarta-medium;
+  @apply text-xl;
+  @apply font-semibold;
+  @apply tracking-[0.15px];
+}
+
+.typography__variant-subtitle3 {
+  @apply font-jakarta-medium;
+  @apply text-lg;
+  @apply font-semibold;
+  @apply tracking-[0.1px];
+}
+
+.typography__variant-subtitle4 {
+  @apply font-jakarta-medium;
+  @apply text-sm;
+  @apply font-semibold;
+  @apply tracking-[0.1px];
+}
+
+.typography__variant-bodyLg {
+  @apply font-jakarta-regular;
+  @apply text-lg;
+  @apply font-normal;
+}
+
+.typography__variant-bodyBase {
+  @apply font-jakarta-regular;
+  @apply text-base;
+  @apply font-normal;
+  @apply tracking-[0.15px];
+}
+
+.typography__variant-bodySmall {
+  @apply font-jakarta-regular;
+  @apply text-sm;
+  @apply tracking-[0.25px];
+}
+
+.typography__variant-smallMedium {
+  @apply font-jakarta-medium;
+  @apply text-sm;
+  @apply font-medium;
+  @apply tracking-[0.25px];
+}
+
+.typography__variant-bodyXSmall {
+  @apply font-jakarta-regular;
+  @apply text-xs;
+  @apply font-normal;
+}
+
+.typography__variant-xSmallMedium {
+  @apply font-jakarta-medium;
+  @apply text-xs;
+  @apply font-medium;
+}
+
+.typography__variant-bodyXxSmall {
+  @apply font-jakarta-regular;
+  @apply text-[10px];
+  @apply font-normal;
+  @apply tracking-[0.25px];
+}
+
+.typography__variant-buttonHeavy1 {
+  @apply font-jakarta-light;
+  @apply text-base;
+  @apply uppercase;
+  @apply font-semibold;
+  @apply tracking-[1.25px];
+}
+.typography__variant-buttonHeavy2 {
+  @apply font-jakarta-light;
+  @apply text-sm;
+  @apply uppercase;
+  @apply font-semibold;
+  @apply tracking-[1.25px];
+}
+
+.typography__variant-buttonHeavy3 {
+  @apply font-jakarta-light;
+  @apply text-[10px];
+  @apply uppercase;
+  @apply font-semibold;
+  @apply tracking-[1.25px];
+}
+
+.typography__variant-buttonLight1 {
+  @apply font-jakarta-light;
+  @apply text-base;
+  @apply uppercase;
+  @apply font-normal;
+  @apply tracking-[1.25px];
+}
+
+.typography__variant-buttonLight2 {
+  @apply font-jakarta-light;
+  @apply text-sm;
+  @apply uppercase;
+  @apply font-normal;
+  @apply tracking-[1.25px];
+}
+
+.typography__variant-buttonLight3 {
+  @apply font-jakarta-light;
+  @apply text-[10px];
+  @apply uppercase;
+  @apply font-normal;
+  @apply tracking-[1.25px];
+}

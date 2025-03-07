@@ -1,0 +1,15 @@
+.button__outline {
+  @apply text-primary !important;
+  @apply border-electricPurpleHoverBorder;
+  @apply border-2;
+  @apply focus:border-2;
+}
+
+.button__primary {
+  @apply text-white;
+  @apply bg-primary;
+  @apply hover:bg-electricPurpleHover;
+  @apply focus:border-electricPurpleHoverBorder;
+  @apply focus:bg-electricPurplePressed;
+  @apply focus:border-2;
+}

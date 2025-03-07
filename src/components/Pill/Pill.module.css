@@ -1,0 +1,6 @@
+.pill__outline{
+    @apply rounded-xl border  border-electricPurple text-electricPurple;
+}
+.pill{
+    display: inline-block;
+}

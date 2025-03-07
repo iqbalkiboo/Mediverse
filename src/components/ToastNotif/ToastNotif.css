@@ -1,0 +1,41 @@
+.container__notif {
+    @apply bg-white;
+    @apply p-4;
+    @apply rounded-lg;
+    @apply z-100;
+    @apply w-[510px];
+    @apply my-2;
+    @apply cursor-pointer;
+    @apply shadow-lg;
+
+    opacity: 0;
+    translate: 150% 0;
+    transition: translate 0.3s, opacity 0.5s linear;
+}
+
+.container__notif__mobile {
+    @apply bg-white;
+    @apply p-4;
+    @apply rounded-lg;
+    @apply z-100;
+    @apply w-[340px];
+    @apply my-2;
+    @apply cursor-pointer;
+    @apply shadow-lg;
+
+    opacity: 0;
+    translate: 150% 0;
+    transition: translate 0.3s, opacity 0.5s linear;
+}
+
+.elipse {
+    @apply w-2;
+    @apply h-2;
+    @apply bg-grayText;
+    @apply rounded-full
+}
+
+.notif__fade {
+    opacity: 1;
+    translate: 0px 0px;
+}

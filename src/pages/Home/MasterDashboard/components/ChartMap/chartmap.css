@@ -1,0 +1,68 @@
+.wrapper-tooltip {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+.title-tooltip {
+  display: block;
+  font-size: 10px;
+  font-family: jakarta-bold;
+  width: 200px;
+  height: 100%;
+  font-weight: 500;
+  background-color: #8e73f4;
+  padding-block: 8px;
+  text-align: center;
+  color: #fff;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.children-tooltip {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  padding-right: 8px;
+  padding-block: 12px;
+  font-family: jakarta-medium;
+  font-size: 10px;
+  row-gap: 8px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.wrapper-product {
+  display: flex;
+}
+
+.product {
+  width: 70%;
+  padding-block: 4px;
+}
+
+.value-product {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #f5f6ff;
+  row-gap: 2px;
+  padding-block: 4px;
+  border-radius: 4px;
+  padding-left: 8px;
+}
+
+.name-province {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.detail-product {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.icon {
+  width: 3px;
+  height: 3px;
+  background-color: black;
+  border-radius: 100%;
+}

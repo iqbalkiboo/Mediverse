@@ -1,0 +1,19 @@
+.text__biography {
+  @apply h-full;
+  @apply my-1;
+  @apply font-normal;
+  @apply text-base;
+  @apply tracking-[0.5px];
+  @apply text-grayText;
+}
+
+.text__information_doctor {
+  @apply w-2/5;
+  @apply flex;
+  @apply items-center;
+  @apply justify-between;
+  @apply font-medium;
+  @apply text-sm;
+  @apply tracking-[0.25px];
+  @apply text-grayText;
+}

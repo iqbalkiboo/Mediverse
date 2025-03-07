@@ -1,0 +1,27 @@
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+input[data-autocompleted] {
+    background-color: transparent !important;
+}
+
+.container__input {
+  @apply border;
+  @apply border-grayNeutral;
+  @apply flex;
+  @apply items-center;
+  @apply rounded-md;
+  @apply px-4;
+  @apply w-full;
+  @apply h-12;
+  @apply rounded-md
+}
+
+.text__input {
+  @apply tracking-[0.5px];
+  @apply text-base;
+  @apply font-normal;
+  @apply text-blackText;
+  @apply placeholder:text-grayTertiary;
+}

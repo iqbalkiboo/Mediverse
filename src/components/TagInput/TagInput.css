@@ -1,0 +1,18 @@
+.rti--container {
+    @apply bg-white;
+    @apply px-4;
+    @apply py-2;
+    @apply rounded-lg;
+    @apply h-[42px];
+    @apply h-auto;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(224 224 224 / var(--tw-border-opacity));
+}
+.rti--container .rti--input {
+    @apply w-full;
+}
+
+.rti--container .rti--tag {
+    @apply mr-2;
+}

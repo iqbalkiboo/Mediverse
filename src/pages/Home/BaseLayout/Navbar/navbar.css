@@ -1,0 +1,109 @@
+.dropdown .dropdown-menu {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.dropdown:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.navbar {
+    @apply border-b;
+    @apply border-[#E1E1E1];
+    @apply sticky;
+    @apply top-0;
+    @apply flex;
+    @apply justify-between;
+    @apply bg-white;
+    @apply z-50;
+}
+
+.navbar-body {
+    @apply flex;
+    @apply bg-[#FDFDFD];
+    @apply h-20;
+    @apply items-center;
+    @apply justify-end;
+    @apply md:px-16;
+    @apply px-4;
+}
+
+.navbar-menu {
+    @apply text-[#4F5B67];
+    @apply bg-white;
+    @apply rounded-lg;
+    @apply mt-6 md:mt-3;
+    @apply shadow-md;
+    @apply overflow-hidden
+}
+
+.navbar-menu .nav-link {
+    @layer bg-white;
+    @apply hover:bg-[#F3EDFF];
+    @apply py-3;
+    @apply px-5;
+    @apply block;
+    @layer whitespace-no-wrap;
+    @apply flex;
+    @apply items-center;
+    @apply transition;
+    @apply duration-300;
+    @apply transition-all;
+    @apply cursor-pointer;
+}
+
+.navbar-menu .nav-link .nav-link-menu {
+    @apply pl-2;
+    @apply hidden;
+    @apply block;
+}
+
+.logo-img {
+    @apply h-[65px];
+}
+
+input ~ #nofitication-body{
+    @apply absolute;
+    @apply w-screen;
+    @apply h-screen;
+    @apply md:h-auto; 
+    @apply md:-right-28;
+    @apply md:top-9;
+    @apply mt-6;
+    @apply py-2;
+    @apply px-5;
+    @apply md:px-0;
+    @apply md:w-[514px];
+    @apply bg-white;
+    @apply rounded-lg;
+    @apply left-0;
+    @apply md:left-auto;
+    @apply md:shadow-lg;
+    @apply md:shadow-[#0000004d];
+
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+input:checked ~ #nofitication-body{
+    visibility: visible;
+    opacity: 1;
+}
+
+.notification-content {
+    @apply overflow-hidden;
+    @apply break-normal;
+
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.notification-list {
+    @apply overflow-y-scroll;
+    @apply max-h-[350px];
+}

@@ -1,0 +1,32 @@
+import type { IConfigPaths } from '@/types/configs';
+
+export const paths: IConfigPaths = {
+  medpharm: 'medpharm',
+  news: 'mediverse-news-private/1.0',
+  search: 'mediverse-search/1.0/api',
+  userPublic: 'mediverse-user-public/1.0',
+  userPrivate: 'mediverse-user-private/1.0',
+  mediversePayment: 'mediverse-payment/1.0',
+  attachment: 'mediverse-attachment/1.0/api',
+  mediverseReferral: 'mediverse-referral/1.0',
+  transactionV2: 'mediverse-transaction-v2/1.0',
+  userShared: 'mediverse-user-shared-private/1.0',
+  mediverseCmsPrivate: 'mediverse-cms-private/1.0',
+  mediverseTransaction: 'mediverse-transaction/1.0.0',
+  healthCareStore: '/mediverse-healthcare-store-channel/1.0',
+  symptomChecker: import.meta.env.VITE_APP_PATH_SYMPTOM_CHECKER,
+  onlineReservation: 'mediverse-online-reservation-private/1.0.0',
+  onlineReservationUpload: 'mediverse-online-reservation-upload/1.0',
+  mediverseTransactionPrivate: 'mediverse-cms-transaction-private/1.0',
+  transactionV2ApiPrivate: 'mediverse-transaction-v2-api-private/1.0/api',
+  healthCareStorePublic:
+    '/mediverse-healthcare-store-channel-public/1.0' /** TODO: will remove later */,
+  onlineReservationClinic: 'mediverse-online-reservation-clinic-private/1.0',
+  onlineReservationDoctor: 'mediverse-online-reservation-doctor-private/1.0',
+  mediverseTelemedicineDoctorPublic: 'mediverse-telemedicine-doctor-public/1.0',
+  onlineReservationSlotPrivate: 'mediverse-online-reservation-slot-private/1.0',
+  mediverseChat: 'mediverse-chat/1.0.0',
+  notification: 'mediverse-notification/1.0/api',
+  chat: 'mediverse-chat/1.1',
+  proxyMediverseMedevo: 'mediverse-medevo-proxy/1.0/medevo',
+};

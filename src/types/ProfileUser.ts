@@ -1,0 +1,42 @@
+export type IProfileUserState = {
+  me: {
+    isLoading: boolean,
+    isError: boolean,
+    errorMessage: string,
+    data: any,
+  },
+  formMe: {
+    isOpen: boolean,
+    isLoading: boolean,
+    isSuccess: boolean,
+    isError: boolean,
+    isConfirmation: boolean,
+    errorMessage: string,
+    successMessage: string,
+    form: {
+      name: string,
+      email: string,
+      oldPassword: string,
+      newPassword: string,
+      photoProfile: string,
+      confirmationNewPassword: string,
+    },
+  },
+  formChangePassword: {
+    isOpen: boolean,
+    isLoading: boolean,
+    isSuccess: boolean,
+    isError: boolean,
+    isConfirmation: boolean,
+    errorMessage: string,
+    successMessage: string,
+    form: {
+      oldPassword: string,
+      newPassword: string,
+      confirmationNewPassword: string,
+    },
+  },
+  isOpenOldPassword: boolean,
+  isOpenNewPassword: boolean,
+  isOpenConfirmationNewPassword: boolean,
+};

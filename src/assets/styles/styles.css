@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @media only screen and (max-width: 768px) {
+    /* width */
+    ::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      border-radius: 100vh;
+      background: none;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #5600e8;
+      border-radius: 100vh;
+      border: 0 solid #5600e8;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: none;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .scrollbar-visible::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .scrollbar-visible::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 4px;
+    }
+
+    .scrollbar-visible::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    ::-webkit-scrollbar {
+      width: 0;
+      height: 11px;
+      -webkit-appearance: none;
+    }
+
+    ::-webkit-scrollbar-track {
+      background-color: #fff;
+      border-radius: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      border: 2px solid white;
+      background-color: rgba(0, 0, 0, .5);
+    }
+  }
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'jakarta-regular', "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;;
+  -webkit-font-smoothing: antialiased;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+@font-face {
+  font-family: "jakarta-bold";
+  src: url('@/src/assets/fonts/PlusJakartaSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: "jakarta-medium";
+  src: url('@/src/assets/fonts/PlusJakartaSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: "jakarta-regular";
+  src: url('@/src/assets/fonts/PlusJakartaSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: "jakarta-light";
+  src: url('@/src/assets/fonts/PlusJakartaSans-Light.ttf');
+}
+
+.react-calendar {
+  width: 400px !important;
+  max-width: 100% !important;
+  background-color: #fff !important;
+  color: #222 !important;
+  border: none !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  line-height: 1.125em !important;
+}
+
+.react-calendar__navigation button {
+  color: #0A0A0A !important;
+  min-width: 44px !important;
+  background: none !important;
+  font-size: 16px !important;
+  margin-top: 8px !important;
+  font-weight: 700 !important;
+
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #f8f8fa !important;
+}
+
+.react-calendar__navigation button[disabled] {
+  background-color: #f0f0f0 !important;
+}
+
+abbr[title] {
+  text-decoration: none !important;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background: #f8f8fa !important;
+  color: #C7AAF7 !important;
+  border-radius: 6px !important;
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #6f48eb33 !important;
+  border-radius: 6px !important;
+  font-weight: bold !important;
+  color: #C7AAF7 !important;
+}
+
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #f8f8fa !important;
+}
+.react-calendar__tile--active {
+  background: #C7AAF7 !important;
+  border-radius: 6px !important;
+  font-weight: bold !important;
+  color: #0A0A0A !important;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #C7AAF7 !important;
+  color: #0A0A0A !important;
+}
+
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #f8f8fa !important;
+}
+
+.react-calendar__tile--range {
+  background: #F8F5FF !important;
+  color: #0A0A0A !important;
+  border-radius: 0 !important;
+}
+
+.react-calendar__tile--rangeStart {
+  border-radius: 6px !important;
+  background: #C7AAF7 !important;
+  color: #0A0A0A !important;
+}
+
+.react-calendar__tile--rangeEnd {
+  border-radius: 6px !important;
+  background: #C7AAF7 !important;
+  color: #0A0A0A !important;
+}
+
+.react-calendar__month-view__days__day--weekend abbr{
+  color: #0A0A0A !important;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth abbr {
+  color: #E0E0E0 !important;
+}
+
+button.react-calendar__navigation__prev2-button {
+  display: none;
+}
+
+button.react-calendar__navigation__next2-button {
+  display: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

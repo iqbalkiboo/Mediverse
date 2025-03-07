@@ -1,0 +1,21 @@
+.overlay{
+    @apply fixed w-screen; 
+    @apply h-screen ;
+    @apply flex;
+    @apply justify-center;
+    @apply items-center;
+    @apply z-100;
+    @apply shadow-2xl;
+    @apply border-2;
+    @apply backdrop-brightness-75;
+    @apply opacity-100;
+}
+
+.container__modal {
+  @apply flex;
+  @apply flex-col;
+  @apply bg-white;
+  @apply rounded-lg;
+  @apply shadow-md;
+  @apply max-h-[95vh];
+}

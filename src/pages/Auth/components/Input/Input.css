@@ -1,0 +1,16 @@
+.iconInput{
+  @apply flex;
+  @apply justify-center;
+  @apply items-center;
+  @apply pl-4;
+}
+
+.input__contianer{
+  @apply flex;
+  @apply items-center;
+  @apply h-11;
+  @apply border-2;
+  @apply border-slate-200;
+  @apply rounded-md;
+  @apply bg-white;
+}

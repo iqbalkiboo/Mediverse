@@ -1,0 +1,57 @@
+export type TransactionV2Card = {
+  balance_expedition: number,
+  balance_gross_provider: number,
+  revenue_potential_mediverse: number,
+  payment_shipping_expedition: number,
+  refund_amount: number,
+  refund_count: number,
+  trx_failed: number,
+  trx_failed_count: number,
+  trx_success: number,
+  trx_success_count: number,
+  promo_fee: number,
+  promo_fee_count: number,
+}
+
+export type ITransactionState = {
+  cardTransaction: {
+    isError: boolean,
+    isLoading: boolean,
+    isSuccess: boolean,
+    errorMessage: string,
+    data: {},
+  },
+  transactions: {
+    isLoading: boolean,
+    isError: boolean,
+    errorMessage: string,
+    data: any,
+    metadata: {
+      page: number,
+      size: number,
+      totalPage: number,
+      totalData: number,
+    },
+  },
+  modalDownloadTransaction: {
+    isError: boolean,
+    isSuccess: boolean,
+    isLoading: boolean,
+    message: string,
+    data: any,
+    isOpen: boolean,
+    dates: any,
+    timeSpanType: string,
+    date: any,
+  },
+  params: {
+    page: number,
+    limit: number,
+    search: string,
+    transactionType: string,
+    endDate: any,
+    startDate: any,
+    endDateRecapitulation: any,
+    startDateRecapitulation: any,
+  },
+}

@@ -1,0 +1,36 @@
+.dot{
+  @apply h-2 w-2;
+  @apply rounded-full;
+  @apply bg-slate-300;
+  @apply flex justify-center items-center
+}
+
+.dot__active{
+  @apply border-2;
+  @apply rounded-full;
+  @apply p-1;
+  @apply border-slate-300;
+  @apply h-5 w-5;
+  @apply flex justify-center items-center;
+}
+
+.slider__container{
+  @apply flex;
+  @apply justify-center;
+  @apply items-center;
+  @apply flex-col;
+  @apply w-full h-full;
+}
+
+.dot__container{
+  @apply flex justify-center items-center;
+  @apply mt-20;
+  @apply gap-4;
+  @apply absolute;
+  @apply bottom-16
+}
+
+.notFound__container{
+  @apply flex flex-col items-center justify-center;
+  @apply px-28;
+}

@@ -1,0 +1,105 @@
+.button__dropdown[type= "button"] {
+  @apply flex;
+  @apply items-center;
+  @apply border;
+  @apply border-[#5600E8];
+  @apply bg-white;
+  @apply rounded-full;
+  @apply py-2;
+  @apply px-10;
+  @apply text-base;
+  @apply font-semibold;
+  @apply uppercase;
+  @apply text-[#5600E8];
+  @apply tracking-[1.25px];
+  @apply transition;
+  @apply duration-700;
+}
+
+.container__dropdown {
+  @apply absolute;
+  @apply bg-white;
+  @apply rounded-lg;
+  @apply h-auto;
+  @apply mt-1;
+  @apply font-normal;
+  @apply text-base;
+  @apply tracking-[0.5px];
+  @apply border;
+  @apply border-[#E1E1E1];
+}
+
+.wrapper__dropdown {
+  @apply flex;
+  @apply py-3;
+  @apply px-4;
+  @apply active:bg-[#F8F5FF];
+  @apply hover:bg-[#E0E0E0];
+  @apply cursor-pointer;
+  @apply items-center;
+}
+
+.container__vendor {
+  @apply flex-wrap;
+  @apply h-4/6;
+  @apply my-7;
+  @apply bg-white;
+  @apply rounded-lg;
+  @apply w-full;
+}
+
+.wrapper__vendor {
+  @apply flex;
+  @apply flex-col;
+  @apply p-4;
+  @apply m-4;
+}
+
+.title__vendor {
+  @apply font-semibold;
+  @apply text-2xl;
+}
+
+.button__vendor[type= "button"] {
+  @apply flex;
+  @apply border;
+  @apply border-[#5600E8];
+  @apply bg-[#5600E8];
+  @apply rounded-full;
+  @apply py-2;
+  @apply px-10;
+  @apply text-base;
+  @apply font-semibold;
+  @apply uppercase;
+  @apply text-white;
+  @apply tracking-[1.25px];
+  @apply duration-700;
+  @apply transition;
+  @apply items-center;
+}
+
+.container__information{
+  @apply flex-wrap;
+  @apply mt-7;
+  @apply bg-[#F3F3F3];
+  @apply rounded-lg;
+  @apply w-full;
+}
+
+.wrapper__information {
+  @apply p-4;
+  @apply font-bold;
+  @apply text-base;
+  @apply tracking-[0.15px];
+}
+
+.text__information {
+  @apply w-1/4;
+  @apply flex;
+  @apply items-center;
+  @apply justify-between;
+  @apply font-medium;
+  @apply text-sm;
+  @apply tracking-[0.25px];
+  @apply text-[#757575];
+}
